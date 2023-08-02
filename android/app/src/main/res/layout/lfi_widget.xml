@@ -1,0 +1,23 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top">
+
+    <RelativeLayout
+        android:id="@+id/widget_layout"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/card_background"
+        android:orientation="vertical">
+
+        <!-- Container for displaying coin data -->
+        <LinearLayout
+            android:id="@+id/container_coins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<!-- divider_layout.xml -->
+<ImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="0.5dp"
+    android:layout_marginLeft="17dp"
+    android:src="@drawable/divider_drawable" />
