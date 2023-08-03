@@ -23,6 +23,7 @@
             android:layout_weight="1"
             android:text="BTC"
             android:textStyle="bold"
+            android:textColor="@color/white"
             android:textSize="12sp"
             android:padding="8dp" />
 

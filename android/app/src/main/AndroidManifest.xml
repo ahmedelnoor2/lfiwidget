@@ -4,7 +4,7 @@
     <application
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
-        android:label="lfiwidget_app">
+        android:label="LFI Widget">
         <receiver
             android:name=".lfiWidget"
             android:exported="false">
